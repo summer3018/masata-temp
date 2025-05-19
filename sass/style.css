@@ -210,4 +210,9 @@ select::-ms-expand {
 .text.text--reverse {
   color: #fff;
 }
+
+.button {
+  color: #141414;
+  background-color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

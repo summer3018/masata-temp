@@ -2,6 +2,28 @@
 @use "./base/reset";
 @use "./global" as *;
 
+.header{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 75px;
+  background-color: transparent;
+}
+
+.header__name{
+//   width: 171px;
+// height: 30px;
+// flex-shrink: 0;
+  img{
+    width: 171px;
+height: 30px;
+flex-shrink: 0;
+  }
+}
+
+
+// 共通パーツ
 
 .inner{
   width: 100%;

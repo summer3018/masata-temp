@@ -198,6 +198,18 @@ select::-ms-expand {
   align-items: center;
   justify-content: center;
   height: inherit;
+  color: #141414;
+}
+
+.header__link--contact {
+  padding: 0 24px;
+  color: #fff;
+  background-color: #f14e53;
+  transition: 0.3s background-color;
+}
+.header__link--contact:hover {
+  opacity: 1;
+  background-color: #bd353a;
 }
 
 .inner {

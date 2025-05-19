@@ -55,6 +55,17 @@
   align-items: center;
   justify-content: center;
   height: inherit;
+  color: $black;
+}
+.header__link--contact{
+  padding: 0 24px;
+  color: $white;
+  background-color: $red;
+  transition: 0.3s background-color;
+  &:hover{
+    opacity: 1;
+    background-color: $red2;
+  }
 }
 
 // 共通パーツ

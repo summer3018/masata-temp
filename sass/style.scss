@@ -7,18 +7,30 @@
   z-index: 1000;
   top: 0;
   left: 0;
+  width: 100%;
   height: 75px;
   background-color: transparent;
 }
 
+
+.header__inner{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding-left: 22px;
+}
+
 .header__name{
+  margin-right: auto;
 //   width: 171px;
 // height: 30px;
 // flex-shrink: 0;
   img{
     width: 171px;
-height: 30px;
-flex-shrink: 0;
+    height: 30px;
+    flex-shrink: 0;
   }
 }
 

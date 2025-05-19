@@ -222,7 +222,24 @@ select::-ms-expand {
   letter-spacing: 0.05em;
   box-shadow: 2px 2px 4px rgba(134, 134, 134, 0.5);
 }
-.button :hover {
+.button:hover {
+  opacity: 0.7;
   background-color: #bd353a;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+  .md-none {
+    display: none;
+  }
+}
+
+.md-show {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .md-show {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */

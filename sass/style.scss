@@ -77,6 +77,16 @@
   height: 16px;
   cursor: pointer;
 }
+.hamburger.is-active{
+  top: 32px;
+  right: 20px;
+}
+.hamburger span{
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 2px;
+}
 
 // 共通パーツ
 

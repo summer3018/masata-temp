@@ -221,6 +221,18 @@ select::-ms-expand {
   cursor: pointer;
 }
 
+.hamburger.is-active {
+  top: 32px;
+  right: 20px;
+}
+
+.hamburger span {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 2px;
+}
+
 .inner {
   width: 100%;
   max-width: 1080px;

@@ -20,4 +20,22 @@
   font-size: 36px;
   font-weight: $medium;
   line-height: 1.4;
+  letter-spacing: 0.05em;
+}
+
+.section-title__sub{
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: $red;
+  margin-top: 3px;
+  @include mq(md) {
+    font-size: 10px;
+  }
+}
+
+.section-title.section-title--center{
+  text-align: center;
+  @include mq(md) {
+    text-align: left;
+  }
 }

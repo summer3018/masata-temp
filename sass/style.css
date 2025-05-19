@@ -212,6 +212,15 @@ select::-ms-expand {
   background-color: #bd353a;
 }
 
+.hamburger {
+  position: fixed;
+  z-index: 999;
+  position: 30px;
+  right: 15px;
+  height: 16px;
+  cursor: pointer;
+}
+
 .inner {
   width: 100%;
   max-width: 1080px;

@@ -68,6 +68,16 @@
   }
 }
 
+// ハンバーガー
+.hamburger{
+  position: fixed;
+  z-index: 999;
+  position: 30px;
+  right: 15px;
+  height: 16px;
+  cursor: pointer;
+}
+
 // 共通パーツ
 
 .inner{

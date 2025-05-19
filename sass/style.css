@@ -184,6 +184,30 @@ select::-ms-expand {
 }
 
 .text {
-  color: #141414;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.867;
+  letter-spacing: 0.05em;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 14px;
+    line-height: 2.143;
+  }
+}
+
+.text.text-large {
+  font-size: 24;
+  line-height: 1.75;
+}
+@media screen and (min-width: 768px) {
+  .text.text-large {
+    font-size: 20px;
+    line-height: 1.9;
+  }
+}
+
+.text.text--reverse {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

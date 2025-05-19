@@ -215,7 +215,7 @@ select::-ms-expand {
 .hamburger {
   position: fixed;
   z-index: 999;
-  position: 30px;
+  padding: 30px;
   right: 15px;
   height: 16px;
   cursor: pointer;
@@ -232,6 +232,38 @@ select::-ms-expand {
   display: inline-block;
   height: 2px;
   background-color: #141414;
+  transition: 0.3s background-color, 0.3s transform;
+}
+
+.hamburger.is-active span {
+  background-color: #fff;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  top: 8px;
+  transition: 0.3s opacity;
+}
+
+.hamburger span:nth-child(3) {
+  top: 16px;
+}
+
+.hamburger.is-active span:nth-child(1) {
+  top: 15px;
+  transform: rotate(-45deg);
+}
+
+.hamburger.is-active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.is-active span:nth-child(3) {
+  top: 15px;
+  transform: rotate(45deg);
 }
 
 .inner {
@@ -322,6 +354,9 @@ select::-ms-expand {
   box-shadow: none;
 }
 
+.md-none {
+  display: block;
+}
 @media screen and (min-width: 768px) {
   .md-none {
     display: none;

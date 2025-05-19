@@ -24,16 +24,38 @@
 
 .header__name{
   margin-right: auto;
-//   width: 171px;
-// height: 30px;
-// flex-shrink: 0;
   img{
     width: 171px;
     height: 30px;
     flex-shrink: 0;
+    @include mq(lg) {
+      width: 132px;
+    }
   }
 }
 
+.header--nav{
+  height: inherit;
+}
+.header--items{
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+.header__item{
+  height: inherit;
+}
+.header__item:not(:first-child){
+  margin-left: 70px;
+}
+.header__link{
+  font-size: 16px;
+  font-weight: $medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
 
 // 共通パーツ
 

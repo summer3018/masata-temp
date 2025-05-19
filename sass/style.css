@@ -182,4 +182,8 @@ select::-ms-expand {
     text-align: left;
   }
 }
+
+.text {
+  color: #20aaa5;
+}
 /*# sourceMappingURL=style.css.map */

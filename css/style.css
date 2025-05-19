@@ -231,6 +231,7 @@ select::-ms-expand {
   left: 0;
   display: inline-block;
   height: 2px;
+  background-color: #141414;
 }
 
 .inner {

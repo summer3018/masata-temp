@@ -1,0 +1,23 @@
+@use "./base/base";
+@use "./base/reset";
+@use "./global" as *;
+
+
+.inner{
+  width: 100%;
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  @include mq(md) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.section-title__main{
+  font-size: 36px;
+  font-weight: $medium;
+  line-height: 1.4;
+}
